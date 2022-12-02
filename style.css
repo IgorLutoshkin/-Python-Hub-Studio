@@ -1,0 +1,12 @@
+p {
+  font-size: 32px;
+  background-color: rgb(44, 215, 44);
+}
+.container {
+  display: inline-block;
+  text-align: center;
+  background-color: rgb(91, 81, 81);
+}
+.main {
+  text-align: center;
+}
