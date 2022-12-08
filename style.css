@@ -1,7 +1,7 @@
-body{
+body {
   font-size: 16px;
 }
-span{
+span {
   font-style: italic;
 }
 img {
@@ -19,7 +19,7 @@ ul {
 .list__content > p {
   margin: 5px;
   text-align: center;
-  font-weight:bolder;
+  font-weight: bolder;
 }
 .list__content > ul {
   margin: 0 0 5px 0;
@@ -30,4 +30,9 @@ ul {
 }
 a {
   text-decoration: none;
+}
+
+.nav-list {
+  display: flex;
+  justify-content: space-between;
 }
