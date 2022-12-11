@@ -8,10 +8,28 @@ a{
 }
 /* плавающий элемент */
 
-img {
+.float__img {
+  display: flex;
+  flex-direction: column;
   float: right;
+  margin-left: 5px;
   padding: 10px;
   border: 1px solid;
+}
+.logo__float{
+  margin: 0 auto;
+  margin-bottom: 5px;
+  width: 80px;
+}
+.float__img p{
+  width: 100%;
+  display: block;
+  text-align: center;
+  margin:0 0 5px 0;
+  padding: 1px;
+  font-family: sans-serif;
+  font-weight: bolder;
+  background-color: #cfe3ff;;
 }
 /* список содержимого */
 
