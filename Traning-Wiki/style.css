@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: medium;
+}
+a{
+  text-decoration: none;
+}
+/* плавающий элемент */
+
+img {
+  float: right;
+  padding: 10px;
+  border: 1px solid;
+}
+/* список содержимого */
+
+.list__content {
+  display: inline-block;
+  border: 1px solid;
+  font-size: 16px;
+}
+.list__content > h2 {
+  font-size: 16px;
+  text-align: center;
+  margin: 5px 0;
+}
+.list__content-item {
+  margin: 0;
+  padding: 0 5px 5px 5px;
+}
+.list__content-item-dop {
+  padding-left: 25px;
+}
+.list__content li {
+  list-style: none;
+}
+
+/* панель навигации */
+
+.heder__nav-panel {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(147, 66, 223);
+}
+.nav__item {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+.heder__nav-panel a {
+  padding: 10px;
+  display: block;
+  color: rgb(0, 0, 0);
+  border: 1px solid;
+}
+
+@media (max-width: 1012px) {
+  .heder__nav-panel {
+    flex-direction: column;
+  }
+}
+
+/* левая панель навигации */
+.text-page {
+  padding-left: 10px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 14%;
+  background-color: aquamarine;
+  padding:0 10px;
+}
+.section {
+  width: 82%;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+}
+.header h3 {
+  color: rgb(58, 58, 58);
+  font-size: 14px;
+  margin: 0;
+  margin-top: 10px;
+  font-weight: normal;
+  border-bottom: 1px solid rgb(95, 95, 95);
+}
+/* изображение для левой панели навигации */
+
+.img__header>img{
+  width: 100%;
+  margin: 0 0 10px 0;
+  padding: 0;
+  border: none;
+}
