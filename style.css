@@ -3,6 +3,9 @@ body {
   padding: 0;
   font-size: medium;
 }
+a{
+  text-decoration: none;
+}
 /* плавающий элемент */
 
 img {
@@ -32,9 +35,6 @@ img {
 .list__content li {
   list-style: none;
 }
-.list__content a {
-  text-decoration: none;
-}
 
 /* панель навигации */
 
@@ -54,6 +54,49 @@ img {
   padding: 10px;
   display: block;
   color: rgb(0, 0, 0);
-  text-decoration: none;
   border: 1px solid;
+}
+
+@media (max-width: 1012px) {
+  .heder__nav-panel {
+    flex-direction: column;
+  }
+}
+
+/* левая панель навигации */
+.text-page {
+  padding-left: 10px;
+}
+.page {
+  display: flex;
+  justify-content: center;
+}
+.header {
+  width: 14%;
+  background-color: aquamarine;
+}
+.section {
+  width: 82%;
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 5px 0;
+}
+.header h3 {
+  color: rgb(58, 58, 58);
+  font-size: 14px;
+  margin: 0;
+  margin-top: 10px;
+  font-weight: normal;
+  border-bottom: 1px solid rgb(95, 95, 95);
+}
+/* изображение для левой панели навигации */
+
+.img__header>img{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  border: none;
 }
