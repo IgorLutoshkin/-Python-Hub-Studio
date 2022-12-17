@@ -5,10 +5,8 @@
 
 .container {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; /* добавляем 3 колонки */
-  grid-template-rows: repeat(
-    4
-  ); /* добавляем 4 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
+  grid-template-columns:repeat(3,1fr) /* добавляем 3 колонки */
+  grid-template-rows: repeat(4); /* добавляем 4 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
 }
 .card {
   margin: 1.5em; /* добавляем margin = 1.5em(16*1.5=24px) */
