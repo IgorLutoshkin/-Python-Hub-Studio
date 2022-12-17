@@ -5,12 +5,19 @@
 
 .container {
   display: grid;
-  grid-template-columns:repeat(3,1fr) /* добавляем 3 колонки */
-  grid-template-rows: repeat(4); /* добавляем 4 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
+  grid-template-columns:repeat(3,1fr); /* добавляем 3 колонки */
+  grid-template-rows: repeat(3); /* добавляем 3 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
 }
 .card {
   margin: 1.5em; /* добавляем margin = 1.5em(16*1.5=24px) */
 }
 .card > img {
   width: 100%; /* картинка займет 100% ширины блока card */
+}
+
+@media (max-width: 800px) {
+	.container {
+		grid-template-columns:repeat(2,1fr); /* делаем 2 колонки для адаптива под планшет */
+		grid-template-rows: repeat(5); /* добавлям строку */
+	}
 }
