@@ -11,8 +11,11 @@
 .card {
   margin: 1.5em; /* добавляем margin = 1.5em(16*1.5=24px) */
 }
-.card > img {
+.card >a> img {
   width: 100%; /* картинка займет 100% ширины блока card */
+}
+.card>.info{
+	text-align: center;/* выравниваем текст в блоке info по центру */
 }
 
 @media (max-width: 800px) {
