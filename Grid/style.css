@@ -1,15 +1,18 @@
-*{
-	margin: 0;
-	padding: 0;
+* {
+  margin: 0;
+  padding: 0;
 }
-img{
-	width: 100%;/* картинка займет 100% ширины блока card */
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* добавляем 3 колонки */
+  grid-template-rows: repeat(
+    4
+  ); /* добавляем 4 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
 }
-.container{
-	display: grid;
-	grid-template-columns: 1fr 1fr 1fr;/* добавляем 3 колонки */
-	grid-template-rows: repeat(4);/* добавляем 4 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
+.card {
+  margin: 1.5em; /* добавляем margin = 1.5em(16*1.5=24px) */
 }
-.card{
-	margin: 3em;/* добавляем margin = 3em(16*3=48px) */
+.card > img {
+  width: 100%; /* картинка займет 100% ширины блока card */
 }
