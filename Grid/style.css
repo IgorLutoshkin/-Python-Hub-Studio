@@ -21,3 +21,12 @@
 		grid-template-rows: repeat(5); /* добавлям строку */
 	}
 }
+@media (max-width: 600px) {
+	.container {
+		grid-template-columns:repeat(1,1fr); /* делаем 1 колонку для адаптива под смартфон */
+		grid-template-rows: repeat(9); /* добавлям строки */
+	}
+	.card{
+		margin-inline: 0;
+	}
+}
