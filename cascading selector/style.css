@@ -1,0 +1,10 @@
+.main{
+  background-color: aqua;
+}
+.border-div{
+  border: 3px solid;
+}
+.main.border-div{
+  border: 3px dotted;
+  background-color: darkslategray;
+}
