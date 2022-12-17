@@ -10,3 +10,6 @@ img{
 	grid-template-columns: 1fr 1fr 1fr;/* добавляем 3 колонки */
 	grid-template-rows: repeat(4);/* добавляем 4 строки высотой 500px(можно убрать и тогда высота подстроиться под ширину контейнера card) */
 }
+.card{
+	margin: 3em;/* добавляем margin = 3em(16*3=48px) */
+}
